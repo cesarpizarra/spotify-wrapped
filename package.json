@@ -1,0 +1,29 @@
+{
+  "name": "spotify-wrapped",
+  "version": "1.0.0",
+  "description": "Cezaru spotify wrapped",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"nodemon server.js\" \"tailwindcss -i ./src/input.css -o ./public/css/output.css --watch\""
+  },
+  "author": "Cesar Pizarra",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.11.5",
+    "nodemon": "^3.1.9",
+    "path": "^0.12.7",
+    "querystring": "^0.2.1",
+    "socket.io": "^4.8.1",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "tailwindcss": "^3.4.17"
+  }
+}
