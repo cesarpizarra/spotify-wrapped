@@ -18,6 +18,19 @@ Clone the Project
     git clone https://github.com/cesarpizarra/spotify-wrapped
 ```
 
+Create a .env
+
+```
+DB_HOST=your-host
+DB_USER=your-user
+DB_PASSWORD=your-password
+DB_NAME=your-db-name
+SPOTIFY_CLIENT_ID=your-spotify-client-id
+SPOTIFY_REDIRECT_URI=your-spotify-redirect-uri
+SPOTIFY_CLIENT_SECRET=your-spotify-client-secret
+SESSION_SECRET=your-session-secret
+```
+
 Navigate to the Project Directory
 
 ```bash
